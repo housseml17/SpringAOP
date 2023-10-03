@@ -1,0 +1,5 @@
+step([$class: 'Mailer',
+      recipients: 'houssem.toumi@esprit.tn',
+      subject: 'Nouveau commit sur le dépôt GitHub',
+      body: 'Consultez le fichier README.txt pour plus de détails.',
+      attachmentsPattern: 'README.txt'])
